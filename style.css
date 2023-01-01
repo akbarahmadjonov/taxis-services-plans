@@ -1,0 +1,669 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(assets/photos/footer_bann.png);
+    height: 710px;
+    width: 100%;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.items ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 17px;
+}
+
+.items ul li a{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.items #icons{
+    color: #FFC61A;
+/*    margin-left: 2px;*/
+    position: absolute;
+/*    padding-top: -20px;*/
+    margin: 1px 0 0 6px;
+    font-size: 14px;
+}
+
+.items ul li a:hover{
+    color: #FFC61A;
+    transition: all 0.5s ease;
+}
+
+.items ul .first-li{
+    color: #FFC61A;
+}
+
+.items ul li{
+    padding-top: 20px;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.bottom-part{
+    height: 42vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-part h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #F5F5F5;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.bottom-part .phone{
+    color: #FFC61A;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.taxi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -33px;
+}
+
+/*HEADER END*/
+
+.location{
+    background-color: #FFC61A;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.location form #font-awesomes{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -30px;
+    color: #cccccc;
+    font-size: 18px;
+}
+
+.location .get-taxi-button{
+    transition: all .3s ease;
+    display: block;
+    margin-left: 459.5px;
+    margin-top: 28px;
+    background: #9F340A;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left: 64px;
+    padding-top: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-right: 64px;
+    box-shadow: 0 6px 10px rgba(159, 52, 10, 0.5);
+    cursor: pointer;
+}
+
+.location .get-taxi-button:hover{
+    background: #1F1F1F;
+    color: #FFC61A;
+}
+
+.location [type='text']{
+    border: none;
+    outline: none;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 60px;
+    border-radius: 3px;
+    margin-left: 5px;
+    background: #fff;
+    border: 1px solid #E6E6E6;
+    font-size: 16px;
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*LOCATION END*/
+
+.services{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.paragraphs{
+    text-align: center;
+}
+
+.paragraphs h2{
+    color: #FFC61A;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.paragraphs h1{
+    margin-top: 1px;
+    color: #1F1F1F;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin-bottom: 45px;
+}
+
+.convenience{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.places{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.places h5{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    margin-top: 25px;
+    color: #000000;
+}
+
+.places .third-h5{
+    margin-top: 29.1px;
+}
+
+.places .last-h5{
+    margin-top: 35px;
+}
+
+
+.places p{
+    font-size: 15.4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    color: #6b5e5e;
+    line-height: 1.6em;
+}
+
+/*SERVICES END*/
+
+.tariffs{
+    background: #F5F5F5;
+    padding-top: 78px;
+    padding-bottom: 78px;
+}
+
+.apostrophe{
+    text-align: center;
+}
+
+.apostrophe h5{
+    color: #FFC61A;
+    font-size: 24px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.apostrophe h1{
+    color: #1F1F1F;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin-top: 1px;
+}
+
+.tarif-cars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.car-types{
+    background: #FFFFFF;
+    padding: 27px;
+    margin-left: 14px;
+    margin-right: 14px;
+    height: 378px;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+
+.car-types .vip{
+    color: #9F340A;
+}
+
+
+.car-types:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.0); 
+}
+
+.tarif-cars p{
+    font-size: 15.4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    color: #6b5e5e;
+    line-height: 1.6em;
+}
+
+.tarif-cars h4{
+    padding-top: 25px;
+    color: #1F1F1F;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0px 0 20px;
+}
+
+.tarif-cars h1{
+    color: #1F1F1F;
+    padding-top: 25px;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+#first-car_h5,
+#last-car_h5{
+    padding-top: 40px;
+}
+
+/*TARIFFS END*/
+
+.cards{
+    background-image: url(.//assets/photos/footer_bann.png);
+    height: 625px;
+    width: 100%;   
+}
+
+.download-con{
+    text-align: center;
+    align-items: center;
+    padding-top: 78px;
+}
+
+.download-con h2{
+    color: #FFC61A;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.download-con h1{
+    color: #FFFFFF;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+}
+
+.circles{
+    color: #1F1F1F;
+    background: #FFC61A;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50%;
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+}
+
+.first_services h5{
+    color: #FFC61A;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.first_services p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    color: #F5F5F5;
+    line-height: 1.6em;
+}
+
+/* CARDS END */
+
+.hold-first{
+    display: flex;
+}
+
+.hold-first .right-photo{
+    width: 63%;
+    margin-top: 120px;    
+}
+
+.drivers-support{
+    margin-left: 115px;
+    margin-top: 120px;
+    margin-bottom: 110px;
+}
+
+.drivers-support-hold{
+    width: 100%;
+}
+
+.drivers-support p{
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    color: #6b5e5e;
+    line-height: 1.8em;
+}
+
+.check-items ul{
+    list-style: none;
+}
+
+.spans .fa-check{    
+    color: #FFC61A;
+    font-size: 17px;
+}
+
+.check-items{
+    margin-top: 35px;
+}
+
+.spans li{
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.spans{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+.become-driver{
+    border: none;
+    background: #FFC61A;
+    color: white;
+    font-size: 17px;
+    padding: 17px 60px;
+    line-height: 1.3333333;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+.become-driver:hover{
+    color: #FFC61A;
+    background: #1F1F1F;
+    transition: all .3s ease;
+}
+
+.drivers-support h3{
+    color: #FFC61A;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.drivers-support h1{
+    color: #1F1F1F;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 40px;
+}
+
+/*ADDITIONAL SUPPORT END*/
+
+.header-testimonial{
+    background: #F5F5F5;
+}
+
+.testimonial-info h2{
+    text-align: center;
+    padding-top: 82px;
+    color: #FFC61A;
+    font-size: 24px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.testimonial-info h1{
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+/*    line-height: 1.4;*/
+    font-size: 39px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.tes-comments{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.frame-com-slider{
+    background: #FFFFFF;
+    margin: 20px;
+    padding: 34px;    
+    border-radius: 5px;
+}
+
+.frame-com-slider p{
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    color: #6b5e5e;
+    line-height: 1.6em;
+    font-style: italic;
+}
+
+.frame-com-slider img{
+    width: 22%;
+    border-radius: 50%;
+    margin-bottom: -65px;
+    z-index: 2;
+}
+
+.frame-com-slider .error-place{
+    margin-top: 50px;
+}
+
+.frame-com-slider .fa-quote-left{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #E6E6E6;
+    font-size: 36px;
+}
+
+.frame-com-slider h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+#tes-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#tes-icons a,
+#tes-icons a{
+    background: #FFC61A;
+    font-size: 19px;
+    color: white;
+    margin: 0 4px;
+    padding: 7px 12px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+#tes-icons a:hover,
+#tes-icons a:hover{
+    background: #1F1F1F;
+}
+
+.offer-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 115px;
+}
+
+.our-partners-paragraph h3{
+    padding-left: 50px;
+    padding-top: 9px;
+}
+
+.our-partners-paragraph .black{
+    color: #1F1F1F;
+    font-size: 22px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.our-partners-paragraph .white{
+    color: white;
+    font-size: 32px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.our-partners-block{
+    background: #FFC61A;
+    margin-top: -4px;
+    padding: 42px;
+    display: flex;
+}
+
+.partners-head-img img{
+    padding-left: 60px;
+    padding-right: 55px;
+}
+
+/*HEADER TESTIMONIAL DIV END*/
+
+.footer{
+    background: #161616;
+    padding-top: 85px;
+    padding-left: 87px;
+    padding-right: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h4{
+    color: #FFC61A;
+    font-size: 19px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 25px;
+}
+
+.footer .error-top{
+    padding-top: 48px;
+}
+
+.footer p{
+    line-height: 1.7em;
+    color: #CCCCCC;
+    font-size: 15.4px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.footer a{
+    line-height: 110px;
+    color: #FFC61A;
+    margin-right: 30px;
+    font-size: 19px;
+    transition: all .3s ease;
+}
+
+.footer-items span{
+    color: #FFC61A;
+/*    margin-right: 10px;*/
+}
+
+.footer a:hover{
+    color: #fff;
+}
+
+.footer #angle-right-arrows{
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #474747;
+    width: 170px;
+    color: #CCCCCC;
+}
+
+.footer #angle-right-arrows:hover{
+    color: #FFC61A;
+}
+
+.footer-items .phone-bold,
+.footer-items .message-bold,
+.footer-items .skype-bold{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 1.3em;
+}
+
+.footer-items .message-bold{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.footer-items .message-bold:hover{
+    color: #FFC61A;
+}
+
+/*FOOTER END*/
+
+.copyright-last{
+    background: #0C0C0C;
+    padding: 35px 87px;
+}
+
+.copyright-last p{
+    font-size: 14px;
+    color: #868686;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.copyright-last a{
+    text-decoration: none;
+    color: #FFC61A;
+}
+
